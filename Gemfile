@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -18,6 +18,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'quiet_assets'
   gem 'rails_layout'
+  gem 'rb-readline'
 end
 
 group :production do
